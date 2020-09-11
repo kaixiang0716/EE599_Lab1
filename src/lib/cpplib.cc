@@ -1,8 +1,18 @@
 #include "cpplib.h"
-
+#include <iostream>
+#include<fstream>
+#include<string>
 #include "limits"
 std::string CPPLib::PrintHelloWorld() { return "**** Hello World ****"; }
+std::string CPPLib::PrintIntro() { return "self-introcuction\n"
+"name: kaixiang\n"
+"major: EE\n"
+"Hobby: cooking\n";
+ 
 
+
+
+}
 // Calculates the Nth Fibonacci number
 int CPPLib::fib(int N) {
   if (N == 0) {

@@ -11,7 +11,7 @@
 class CPPLib {
  public:
   std::string PrintHelloWorld();
-
+ std::string PrintIntro();
   // Calculates the Nth Fibonacci number
   int fib(int N);
   
